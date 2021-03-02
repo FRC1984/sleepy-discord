@@ -81,4 +81,4 @@ cp_dep = declare_dependency(
   compile_args: cp_flags,
   include_directories: '../include',
   link_with: cp_lib
-)
+).as_system('system')

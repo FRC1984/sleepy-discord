@@ -38,5 +38,4 @@ websocketpp = dependency('websocketpp', include_type: 'system')
 asio = dependency('asio', include_type: 'system')
 opus = dependency('opus', include_type: 'system')
 
-
 subdir('sleepy_discord')

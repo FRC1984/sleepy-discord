@@ -77,7 +77,7 @@ cp_lib = library('sleepy-discord',
   include_directories: ['../include/sleepy_discord', version_inc]
 )
 
-declare_dependency(
+cp_dep = declare_dependency(
   compile_args: cp_flags,
   include_directories: '../include',
   link_with: cp_lib

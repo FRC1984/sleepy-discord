@@ -48,7 +48,7 @@ configure_file(
 
 version_inc = include_directories('.')
 
-cp_lib = library('sleepy-discord',
+cp_lib = static_library('sleepy-discord',
   'assignments_client.cpp',
   'asio_udp.cpp',
   'attachment.cpp',
